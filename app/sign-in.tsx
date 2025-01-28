@@ -12,7 +12,7 @@ import images from "@/constants/images";
 import icons from "@/constants/icons";
 
 const SignIn = () => {
-  const handleLogin = () => {};
+  const handleLogin = async () => {};
   return (
     <SafeAreaView className="bg-white h-full">
       <ScrollView contentContainerClassName="h-full">
