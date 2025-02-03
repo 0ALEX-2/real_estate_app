@@ -29,7 +29,6 @@ export const GlobalProvider = ({ children }: { children: ReactNode }) => {
     return refetch ? refetch(newParams) : Promise.resolve();
   };
   const isLoggedIn = !!user;
-  console.log(JSON.stringify(user));
 
   return (
     <GlobalContext.Provider
